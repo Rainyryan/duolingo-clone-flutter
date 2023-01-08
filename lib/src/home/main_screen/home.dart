@@ -71,7 +71,6 @@ class _HomeState extends State<Home> {
                 },
                 iconSize: _currentIndex == 0 ? _iconSizeSelected : _iconSize,
               ),
-              title: const Padding(padding: EdgeInsets.all(0)),
             ),
             BottomNavigationBarItem(
               icon: IconButton(
@@ -86,7 +85,6 @@ class _HomeState extends State<Home> {
                 },
                 iconSize: _currentIndex == 1 ? _iconSizeSelected : _iconSize,
               ),
-              title: const Padding(padding: EdgeInsets.all(0)),
             ),
             BottomNavigationBarItem(
               icon: IconButton(
@@ -101,7 +99,6 @@ class _HomeState extends State<Home> {
                 },
                 iconSize: _currentIndex == 2 ? _iconSizeSelected : _iconSize,
               ),
-              title: const Padding(padding: EdgeInsets.all(0)),
             ),
             BottomNavigationBarItem(
               icon: IconButton(
@@ -116,7 +113,6 @@ class _HomeState extends State<Home> {
                 },
                 iconSize: _currentIndex == 3 ? _iconSizeSelected : _iconSize,
               ),
-              title: const Padding(padding: EdgeInsets.all(0)),
             ),
             BottomNavigationBarItem(
               icon: IconButton(
@@ -130,7 +126,6 @@ class _HomeState extends State<Home> {
                 },
                 iconSize: _currentIndex == 4 ? _iconSizeSelected : _iconSize,
               ),
-              title: const Padding(padding: EdgeInsets.all(0)),
             ),
           ],
         ));

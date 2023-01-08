@@ -19,8 +19,7 @@ class Button extends StatelessWidget {
   Widget build(BuildContext context) =>
     Container(
       height: 46,
-      child: RaisedButton(
-        color: Colors.blue,
+      child: ElevatedButton(
         onPressed: onPressed,
         child: showProgress
             ? Center(
